@@ -41,7 +41,7 @@
 	<select id="query" resultMap="queryAllresultMap">
 		SELECT
 		tb_building.*,
-		tb_user.NAME AS username
+		tb_user.NAME as username
 		FROM
 		tb_building,
 		tb_user
